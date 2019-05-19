@@ -1,0 +1,206 @@
+body {
+    background: #F2F2F2;
+}
+
+.header-logo {
+    position: absolute;
+    left: 6.74%;
+    right: 86.18%;
+    top: 1.67%;
+    bottom: 94.44%;
+}
+
+.sell {
+    position: absolute;
+    left: 70.56%;
+    right: 20.35%;
+    top: 2.41%;
+    bottom: 94.72%;
+    background: #349A89;
+    border-radius: 4px;
+    height: 31px;
+    width: 131px;
+}
+
+.sell span {
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    left: 50px;
+    top: 2px;
+}
+
+.login {
+    position: absolute;
+    height: 40px;
+    width: 42;
+    left: 81.94%;
+    right: 15.14%;
+    top: 1.51%;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #2B2B2B;
+    line-height: 40px;
+}
+
+.like {
+    position: absolute;
+    left: 87.65%;
+    right: 11.12%;
+    top: 2.98%;
+    bottom: 95.56%;
+}
+
+form {
+    position: absolute;
+    left: 35.28%;
+    right: 35.21%;
+    top: 12.78%;
+    bottom: 53.43%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+    border-radius: 7px;
+    width: 425px;
+    height: 365px;
+}
+
+.form-login h1 {
+    width: 54px;
+    height: 25px;
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 22px;
+    line-height: 25px;
+    color: #282828;
+    margin-top: 25px;
+    margin-left: 180px;
+}
+
+input[type="text"] {
+    background: #F9FAFB;
+    border: 1px solid #DEDEE0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 377px;
+    height: 58px;
+    margin-top: 80px;
+    margin-left: 24px;
+}
+
+label[for="email"] {
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 62px;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+input[placeholder="Example@gmail.com"] {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: rgba(102, 102, 102, 0.466455);
+    padding-left: 13px;
+}
+
+input[type="password"] {
+    margin-top: 20px;
+    margin-left: 24px;
+    background: #F9FAFB;
+    border: 1px solid #DEDEE0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 377px;
+    height: 58px;
+    background-image: url("eye.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    padding: 13px;
+}
+
+label[for="password"] {
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #303030;
+    margin-left: 24px;
+    margin-top: 2px;
+}
+
+.remember-password a {
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #8C8C8C;
+    margin-left: 220px;
+    margin-top: -10px;
+}
+
+input[type="submit"] {
+    position: absolute;
+    width: 377px;
+    height: 58px;
+    background: #349A89;
+    border-radius: 5px;
+    border: none;
+    margin-left: 24px;
+    margin-top: 25px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF
+}
+
+.register {
+    position: absolute;
+    left: 35.28%;
+    right: 35.21%;
+    top: 48.52%;
+    bottom: 44.44%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+    border-radius: 7px;
+    height: 76px;
+    width: 425px;
+    margin-top: 121px;
+}
+
+.register span {
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #2A2A2A;
+    padding-top: 30px;
+    padding-left: 92px;
+}
+
+.register a {
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #349A89;
+    padding-top: 30px;
+    padding-left: 220px;
+}
