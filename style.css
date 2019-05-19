@@ -205,3 +205,22 @@ input[type="submit"] {
     padding-left: 220px;
     text-decoration: none;
 }
+
+.footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 93.24%;
+    bottom: 0%;
+    background: rgba(192, 196, 206, 0.127321);
+    width: 1440px;
+    height: 73px;
+    margin-top: 406.2px;
+}
+
+.footer img {
+    position: absolute;
+    padding-left: 603px;
+    padding-top: 22.2px;
+    padding-bottom: 33.8 px;
+}
