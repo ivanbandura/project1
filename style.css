@@ -37,6 +37,10 @@
         font-weight: normal;
     }
     
+    .header a.sell:hover {
+        opacity: 0.8;
+    }
+    
     .header a.shape {
         margin-top: 15px;
     }
