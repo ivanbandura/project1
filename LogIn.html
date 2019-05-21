@@ -3,42 +3,43 @@
 
 <head>
     <meta charset="utf-8">
+
     <title> Log In </title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="header">
-        <div class="header-logo">
-            <img src="Logofull.png" alt="apiko" width="102" height="42">
-        </div>
-        <div class="header-nav">
-            <a href="#1" class="sell"><span>SELL</span> </a>
-            <a href="#1" class="login">LOGIN</a>
-            <a href="#1" class="like"> <img src="Shape.png" alt="shape"></a>
-
+        <a href="#default" class="logo"><img src="Logofull.png" alt="Logo"></a>
+        <div class="header-right">
+            <a class="sell" href="#1">SELL</a>
+            <a href="#1">LOGIN</a>
+            <a class="shape" href="#1"><img src="Shape.png" alt=""></a>
         </div>
     </div>
-    <form class="form-login" method="post" action="">
-        <h1>Login</h1>
-        <p>
-            <label for="email">EMAIL</label>
-            <input type="text" id="email" name="email" placeholder="Example@gmail.com" required>
-        </p>
-        <p>
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password" required>
+
+    <form>
+        <div class="container">
+            <h1>Login</h1>
+            <label for="uname"><b>EMAIL</b></label>
+            <input type="email" placeholder="Example@gmail.com" id="uname" required>
+            <label for="psw"><b>PASSWORD</b></label>
+            <input type="password" id="psw" required>
             <p class="remember-password"><a href="#1">Don't remember password?</a></p>
-        </p>
-
-        <p>
-            <input type="submit" name="submit" value="Continue">
-        </p>
+            <button type="submit">Continue</button>
+        </div>
+        <div class="container-register" style="background-color:#ffffff">
+            <span class="psw">I have no account, <a href="#">REGISTER NOW</a></span>
+        </div>
     </form>
-    <div class="register"><span>I have no account,</span> <a href="#1">REGISTER NOW</a></div>
+
+
     <div class="footer">
-        <img src="copyright.png" alt="copyright" width="280" height="17">
+        <p>Copyright © 2017. Privacy Policy.</p>
     </div>
+
 
 </body>
 
